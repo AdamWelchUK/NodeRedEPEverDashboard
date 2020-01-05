@@ -10,13 +10,9 @@ Full instructions for installing raspbian, node red and the flows is below.
 # Node Red install instructions
 
 Download the latest Raspbian from here... https://www.raspberrypi.org/downloads/raspbian/  I choose to use the lite version.
-
 Copy the image to an SD card. I used Etcher available from...  https://www.balena.io/etcher/
-
 Once completed, create a file on the boot partition of your SD card called 'ssh'.  It should just be called ssh and not have an extension.
-
 Pop the SD card in your raspberry pi and give it some power and network.
-
 Find the IP given to the pi either by plugging in a monitor, or by checking your dhcp server settings on your router.
 SSH into your pi.  I use putty on windows, available from here... https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 Log in to your pi.  The default username is 'pi' and the default password is 'raspberry'.
