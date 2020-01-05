@@ -47,6 +47,9 @@ Search for, and install...
 17. Back on the dashboard click the burger icon in the top right.
 18. Click on Import.
 19. Paste in the latest code from here:  https://github.com/AdamWelchUK/NodeRedEPEverDashboard/blob/master/EPEverDashboardv0.1.json
+
 The two flows will have been imported and you can now set about configuring them.
+
 You will need to configure the Modbus Server by double clicking on one of the red modbus nodes.
+
 If you'd like to log the data to a influxDB or to a csv files these nodes can be enabled and configured by double clicking them.
