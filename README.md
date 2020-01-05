@@ -38,10 +38,10 @@ Full instructions for installing raspbian, node red and the flows is below.
 14. Open the user interface in your browser by visiting http://Your.IP.Add.ress:1880
 15. To use all the elements of the flow you will need to install the following packages.  It is possible to do this via the node red user interface, so click on the burger in the top right and select palette manager.
 Search for, and install...    
-> node-red-dashboard
-> node-red-contrib-modbus
-> node-red-contrib-influxdb
-> node-red-contrib-moment
+- node-red-dashboard
+- node-red-contrib-modbus
+- node-red-contrib-influxdb
+- node-red-contrib-moment
 16. Jump back to the command line and restart node red, to ensure the nodes are installed.  Because node red is installed as a service, I restart the pi.
 > sudo reboot now
 17. Back on the dashboard click the burger icon in the top right.
