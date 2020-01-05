@@ -22,10 +22,13 @@ Full instructions for installing raspbian, node red and the flows is below.
 10. Log back in via SSH and run 
 > sudo apt-get update && sudo apt-get upgrade
 11. At this point you have three options, and I recommend the second - using the official script to install the latest version of node red and npm (the package manager)
+
 1st method - run
 > sudo apt-get install nodered
+
 2nd method - run
 > bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+
 3rd method - use Peter Scargills Super Script https://tech.scargill.net/the-script/ (it can be used to install node-red against a load of other handy packages, but is beyond the scope of this guide)
 12. Once either version is installed you can install it as a service...
 > sudo systemctl enable nodered.service 
