@@ -7,7 +7,7 @@ It also allows you to change a number of the charging parameters which are acces
 
 Full instructions for installing raspbian, node red and the flows is below.
 
-# Node Red install instructions
+# Install instructions
 
 1. Download the latest Raspbian from here... https://www.raspberrypi.org/downloads/raspbian/  I choose to use the lite version.
 2. Copy the image to an SD card. I used Etcher available from...  https://www.balena.io/etcher/
