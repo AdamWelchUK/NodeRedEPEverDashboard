@@ -1,4 +1,4 @@
-# NodeRedEPEverDashboard
+# Node Red EPEver Dashboard
 A node red based dashboard for most EPEver/EPSolar solar charge controllers.
 
 This dashboard has been tested with EPSolar Landstar PWM, EPEver Tracer A, Tracer AN and TriRon solar charge controllers.  
@@ -9,17 +9,17 @@ Full instructions for installing raspbian, node red and the flows is below.
 
 # Node Red install instructions
 
-Download the latest Raspbian from here... https://www.raspberrypi.org/downloads/raspbian/  I choose to use the lite version.
-Copy the image to an SD card. I used Etcher available from...  https://www.balena.io/etcher/
-Once completed, create a file on the boot partition of your SD card called 'ssh'.  It should just be called ssh and not have an extension.
-Pop the SD card in your raspberry pi and give it some power and network.
-Find the IP given to the pi either by plugging in a monitor, or by checking your dhcp server settings on your router.
-SSH into your pi.  I use putty on windows, available from here... https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-Log in to your pi.  The default username is 'pi' and the default password is 'raspberry'.
-Type and run 
-	sudo raspi-config
-Change the password, expand the file system (in advanced menu) and allow the pi to reboot.
-Log back in via SSH and run 
+1. Download the latest Raspbian from here... https://www.raspberrypi.org/downloads/raspbian/  I choose to use the lite version.
+2. Copy the image to an SD card. I used Etcher available from...  https://www.balena.io/etcher/
+3. Once completed, create a file on the boot partition of your SD card called 'ssh'.  It should just be called ssh and not have an extension.
+4. Pop the SD card in your raspberry pi and give it some power and network.
+5. Find the IP given to the pi either by plugging in a monitor, or by checking your dhcp server settings on your router.
+6. SSH into your pi.  I use putty on windows, available from here... https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+7. Log in to your pi.  The default username is 'pi' and the default password is 'raspberry'.
+8. Type and run 
+> sudo raspi-config
+9. Change the password, expand the file system (in advanced menu) and allow the pi to reboot.
+10. Log back in via SSH and run 
 	sudo apt-get update && sudo apt-get upgrade
 At this point you have three options, and I recommend the second - using the official script to install the latest version of node red and npm (the package manager)
 1st method - run
