@@ -5,7 +5,9 @@ This dashboard has been tested with EPSolar Landstar PWM, EPEver Tracer A, Trace
 It reads live and historical stats and displays them in graphs using the standard Node Red UI.
 It also allows you to change a number of the charging parameters which are accessible when you select 'User' battery type.
 
-Full instructions for installing raspbian, node red and the flows is below.
+Full instructions for installing raspbian, node red and the flow is below.
+
+This has been tested on an orginal Raspberry Pi 1 as well as a raspberry pi 4 using node red within Hass.io (docker).
 
 # Install instructions
 
