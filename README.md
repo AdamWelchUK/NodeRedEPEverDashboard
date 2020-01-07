@@ -7,7 +7,11 @@ It also allows you to change a number of the charging parameters which are acces
 
 Full instructions for installing raspbian, node red and the flow is below.
 
-This has been tested on an orginal Raspberry Pi 1 as well as a raspberry pi 4 using node red within Hass.io (docker).
+This has been tested on an original Raspberry Pi 1 as well as a raspberry pi 4 using node red within Hass.io (docker).
+
+I've used a range of different techniques within the flow both for my own learning and to outline to others how it is possible to do many of these processes in different ways.  Much of this flow could have been completed in a couple of function nodes, but my javascript skills are fairly basic and I think that may have been more confusing for a node red novice.  This is meant to be a basis for people to build upon rather than a finished product.
+
+A full list of EPSolar ModBus Registers is avaialble here: http://www.solar-elektro.cz/data/dokumenty/1733_modbus_protocol.pdf
 
 # Install instructions
 
