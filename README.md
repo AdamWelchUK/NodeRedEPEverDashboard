@@ -59,3 +59,5 @@ The two flows will have been imported and you can now set about configuring them
 You will need to configure the Modbus Server by double clicking on one of the red modbus nodes.
 
 If you'd like to log the data to a influxDB or to a csv files these nodes can be enabled and configured by double clicking them.
+
+To access the statistics and adjust settings you must accesshttp://Your.IP.Add.ress:1880/ui
